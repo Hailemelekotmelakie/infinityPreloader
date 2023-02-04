@@ -11,8 +11,8 @@ jobs:
       - name: Upload from public_html via FTP
         uses: airvzxf/ftp-deployment-action@latest
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          user: ${{ secrets.FTP_HULIESIRA }}
-          password: ${{ secrets.FTP_HULIESIRA }}
+          server: ${{ secrets.FTPSERVER }}
+          user: ${{ secrets.FTPUSERNAME }}
+          password: ${{ secrets.FTPPASSWORD }}
           local_dir: "./dictionary.huliesira.com"
           delete: "false"
