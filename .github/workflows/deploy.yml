@@ -14,5 +14,4 @@ jobs:
           server: ${{ secrets.FTPSERVER }}
           user: ${{ secrets.FTPUSERNAME }}
           password: ${{ secrets.FTPPASSWORD }}
-          local_dir: "./dictionary.huliesira.com"
           delete: "false"
